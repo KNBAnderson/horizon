@@ -1,11 +1,15 @@
 (ns starter.browser
   (:require [component.footer :refer [footer]]
+            [component.header :refer [header]]
             [component.navbar :refer [navbar]]
+            [component.written-number :refer [written-number-section]]
             [reagent.dom :as rd]))
 
 (defn- app []
   [:div
    [navbar]
+   [header]
+   [written-number-section]
    [footer]])
 
   ;; start is called by init and after code reloading finishes

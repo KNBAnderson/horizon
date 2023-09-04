@@ -1,4 +1,72 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: green;
+body,
+.ui.button {
+  font-family: proxima-nova, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+}
+
+
+h1.ui.header {
+  font-family: geller-headline, serif;
+  font-size: 70px;
+}
+
+h2.ui.header {
+  font-family: geller-headline, serif;
+  font-size: 30px;
+}
+
+.ui.segment.hero {
+  background-image: url("../assets/herobg.png");
+  background-size: cover;
+  min-height: 700px;
+  max-height: 1000px;
+  background-position: right center;
+  width: 100%;
+  padding: 0 inherit 0 inherit;
+  margin-bottom: 0px;
+}
+
+.ui.segment {
+  border: none;
+}
+
+.ui.card>.content {
+  height: 180px;
+}
+
+
+
+.ui.segment.written-number {
+  padding: 30px 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 17px;
+  color: #787878;
+}
+
+.overflow {
+  overflow-wrap: break-word;
+}
+
+.ui.menu:last-child {
+  margin-bottom: 0;
+}
+
+.ui.menu.footer {
+  margin-top: 0px;
+  padding: 50px 40px 50px 40px;
+  background-color: #1f2b34;
+}
+
+.ui.inverted.menu .item {
+  box-shadow: none;
+}
+
+.ui.blue-background {
+  background-color: #eef4f8;
+}
+
+.emphasize {
+  color: black;
 }
