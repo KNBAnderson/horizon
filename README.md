@@ -35,6 +35,8 @@ _The web application must have the following features:_
 - Run `npx shadow-cljs watch app`
 - Open http://localhost:8020 in browser
 
+- Or view here: http://horizonassessment.s3-website-us-east-1.amazonaws.com 
+
 ### License
 
 Copyright (c) 2023 **_Katlin Anderson_**
